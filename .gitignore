@@ -1,55 +1,175 @@
-# Prerequisites
-*.d
+## --------------------------------------------------------
+## ОСНОВНОЕ ДЛЯ .NET / C#
+## --------------------------------------------------------
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build
+bin/
+obj/
+out/
+Release/
+Debug/
+x64/
+x86/
+build/
+[Bb]uild/
+[Bb]uilds/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+*.userprefs
 
-# Precompiled Headers
-*.gch
-*.pch
+# Logs
+*.log
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# VS Code
+.vscode/
+.history/
+*.code-workspace
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Rider
+.idea/
+*.sln.iml
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Visual Studio
+.vs/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# Cache folders
+*.cache
+*.config
+*.pidb
+*.sbr
 *.pdb
+*.mdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+## --------------------------------------------------------
+## DOTNET SPECIFIC
+## --------------------------------------------------------
 
-# debug information files
-*.dwo
+# EF Core Migrations (если нужны — убери из ignore)
+#Migrations/
+
+# Base intermediate outputs
+*.dll
+*.exe
+
+# Publish outputs
+publish/
+app.publish/
+
+# Coverage tools
+coverage/
+*.coverage
+*.coveragexml
+.coverage/
+TestResults/
+
+## --------------------------------------------------------
+## TESTING (NUnit, Playwright, Selenium)
+## --------------------------------------------------------
+
+# Allure results
+allure-results/
+allure-report/
+
+# Playwright
+bin/Debug/net*/playwright/
+playwright/.cache/
+playwright-report/
+test-results/
+
+# Screenshots, videos, traces
+screenshots/
+videos/
+traces/
+*.png
+*.mp4
+*.webm
+*.zip
+
+# Selenium drivers
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+drivers/
+
+## --------------------------------------------------------
+## MOCKING / DATA GENERATION
+## --------------------------------------------------------
+
+# Bogus / snapshots
+snapshots/
+tempdata/
+
+## --------------------------------------------------------
+## PROJECT TOOLING
+## --------------------------------------------------------
+
+# JetBrains Rider, ReSharper
+*.DotSettings.user
+
+# StyleCop, analyzers
+*.stylecop
+
+# Local secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# dotenv
+.env
+.env.*
+
+## --------------------------------------------------------
+## SYSTEM FILES / TRASH
+## --------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Archives
+*.7z
+*.zip
+*.rar
+*.gz
+*.tar
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+*.log
+
+## --------------------------------------------------------
+## If you use Docker later
+## --------------------------------------------------------
+
+docker-compose.override.yml
+.env.docker
