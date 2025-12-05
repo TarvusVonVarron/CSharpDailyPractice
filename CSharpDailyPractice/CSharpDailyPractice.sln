@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDailyPractice", "CSharpDailyPractice\CSharpDailyPractice.csproj", "{51ECF129-3B49-4949-9517-AC5204A7B6EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpDailyPractice", "CSharpDailyPractice\CSharpDailyPractice.csproj", "{51ECF129-3B49-4949-9517-AC5204A7B6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntefracesAbstractions", "IntefracesAbstractions\IntefracesAbstractions.csproj", "{6A0F7863-FB11-489C-BA73-ED9CCCB66720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{51ECF129-3B49-4949-9517-AC5204A7B6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51ECF129-3B49-4949-9517-AC5204A7B6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51ECF129-3B49-4949-9517-AC5204A7B6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0F7863-FB11-489C-BA73-ED9CCCB66720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0F7863-FB11-489C-BA73-ED9CCCB66720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0F7863-FB11-489C-BA73-ED9CCCB66720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0F7863-FB11-489C-BA73-ED9CCCB66720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
